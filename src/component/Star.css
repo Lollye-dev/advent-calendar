@@ -1,0 +1,11 @@
+.star-img {
+    height: 8vh;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+.star-img:hover {
+  animation: twinkle 1s ease-in-out infinite;
+  filter: brightness(1.2) drop-shadow(0 0 10px gold);
+  transform: scale(1.1);
+}

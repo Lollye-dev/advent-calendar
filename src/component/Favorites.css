@@ -1,0 +1,16 @@
+.favorites {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-family: var(--text-font);
+    color: var(--third-color);
+    font-size: 1.3rem;
+}
+
+li {
+    list-style-type: "★";
+    font-family: var(--text-font);
+    color: var(--primary-color);
+    padding-left: .5rem;
+}

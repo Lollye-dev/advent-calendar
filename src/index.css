@@ -1,0 +1,22 @@
+:root {
+    --shadow: 0 0 15px 10px rgba(0, 0, 0, 0.2);
+    --primary-color: #5C8984;
+    --secondary-color: #D7C5AF;
+    --third-color: #BB5848;
+    --title-font: "lobster two";
+    --text-font: "montserrat";
+}
+
+
+body {
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0; 
+  background-color: rgba(255, 255, 255, 0.4); 
+  z-index: -1; 
+}
